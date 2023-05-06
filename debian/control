@@ -1,0 +1,16 @@
+Source: openmediavault-kopia
+Section: net
+XB-Plugin-Section: backup
+Priority: optional
+Maintainer: clexanis <clexanis@users.noreply.github.com>
+Build-Depends: debhelper (>= 12)
+Standards-Version: 3.9.6
+Homepage: https://github.com/clexanis/openmediavault-kopia
+
+Package: openmediavault-kopia
+Architecture: all
+Depends: openmediavault (>=6),
+         openmediavault-kopia-repository,
+         kopia
+Description: kopia plugin for OpenMediaVault.
+ Kopia is a deduplicating backup program.
